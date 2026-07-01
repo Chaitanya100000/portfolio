@@ -164,3 +164,58 @@ nav {
     color: #8B96A8;
     text-decoration: none;
 }
+.resume-panel{
+    background: #0F141D;
+    border: 1px solid #212B3A;
+    border-radius: 12px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 20px;
+}
+.resume-panel h3{
+    font-size: 19px;
+    margin-bottom: 6px;
+}
+.resume-note{
+    color: #8B96A8;
+    font-size: 13.5px;
+}
+.resume-actions{
+    display: flex;
+    gap: 12px;
+}
+.contact-methods{
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    max-width: 500px;
+}
+.contact-method{
+    padding: 16px 0;
+    border-bottom: 1px solid #212B3A;
+    color: #8B96A8;
+    text-decoration: none;
+    font-size: 14px;
+}
+.contact-method :hover{
+    color: #00D9C0;
+}
+.form-field input, .form-field textarea{
+    width: 100%;
+    background: #0F141D;
+    border: 1px solid #212B3A;
+    border-radius: 6px;
+    padding: 13px 14px;
+    color: #E8ECF1;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.form-field input:focus, .form-field textarea:focus{
+    outline: none;
+    border-color: #00D9C0;
+}
