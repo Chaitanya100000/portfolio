@@ -131,3 +131,36 @@ nav {
     color: #00D9C0;
     background: #00D9C022;
 }
+.project-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 20px;
+}
+.project-card{
+    background: #0F141D;
+    border: 1px solid #212B3A;
+    border-radius: 10px;
+    padding: 28px;
+}
+.p-desc{
+    color: #8B96A8;
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+.project-tags span{
+    font-size:11px;
+    color: #FFB454;
+    background: #FFB45414;
+    padding: 4px 9px;
+    border-radius: 4px;
+}
+.project-links{
+    display: flex;
+    gap: 16px;
+    font-size: 12.5px;
+}
+.project-links a{
+    color: #8B96A8;
+    text-decoration: none;
+}
