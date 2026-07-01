@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0a0e14;
+  color: #e8ecf1;
+  font-family: sans-serif;
+}
+header {
+  background: #0f141d;
+  border-bottom: 1px solid #212b3a;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px, 32px;
+}
+.logo {
+  color: #e8ecf1;
+  text-decoration: none;
+  font-weight: 700;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+}
+.nav-links a {
+  color: #8b96a8;
+  text-decoration: none;
+}
+.hero {
+  padding: 100px 32px;
+  max-width: 900px;
+}
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  padding: 7px, 14px;
+  border-radius: 20px;
+  border: 1px solid #212b3a;
+  color: #8b96a8;
+  margin-bottom: 24px;
+}
+.pulse {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #00d9c0;
+}
+.hero h1 {
+  font-size: 48px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+.accent {
+  color: #00d9c0;
+}
+.tagline {
+  font-size: 17px;
+  color: #8b96a8;
+  margin-bottom: 32px;
+}
+.btn {
+  display: inline-block;
+  padding: 13px 22px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  margin-right: 12px;
+}
+.btn-primary {
+  background: #00d9c0;
+  color: #03110f;
+  font-weight: 600;
+}
+.btn-ghost {
+  color: #e8ecf1;
+  border: 1px solid #212b3a;
+}
+.section {
+  padding: 80px, 32px;
+  max-width: 900px;
+}
+.eyebrow {
+  font-size: 12.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #00d9c0;
+  margin-bottom: 10px;
+}
+.section h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+.about-text {
+  color: #8b96a8;
+  font-size: 16px;
+  margin-bottom: 18px;
+  max-width: 600px;
+}
+.skill-group-label {
+  font-size: 12px;
+  color: #5c6779;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+.pill-row{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.pill{
+    font-size: 13px;
+    padding: 9px 16px;
+    border-radius: 6px;
+    border: 1px solid #212B3A;
+    background: #0F141D;
+    color: #8B96A8;
+}
+.pill.core{
+    border-color: #00D9C0;
+    color: #00D9C0;
+    background: #00D9C022;
+}
