@@ -18,6 +18,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 18px, 32px;
+  max-width: 900px;
+  margin: 0 auto;
 }
 .logo {
   color: #e8ecf1;
@@ -36,6 +38,7 @@ nav {
 .hero {
   padding: 100px 32px;
   max-width: 900px;
+  margin: 0 auto;
 }
 .status-pill {
   display: inline-flex;
@@ -87,6 +90,7 @@ nav {
 .section {
   padding: 80px, 32px;
   max-width: 900px;
+  margin: 0 auto;
 }
 .eyebrow {
   font-size: 12.5px;
