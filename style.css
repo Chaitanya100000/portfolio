@@ -290,6 +290,12 @@ footer p{
     display: none;
   }
   .menu-toggle{
-    display: flex;
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
   }
 }
