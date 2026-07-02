@@ -21,6 +21,17 @@ nav {
   max-width: 900px;
   margin: 0 auto;
 }
+.nav-links .open{
+  display: flex;
+  flex-direction:column;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  background: #0f141d;
+  width: 220px;
+  padding: 24px;
+  border: 1px solid #212b3a;
+}
 .logo {
   color: #e8ecf1;
   text-decoration: none;
@@ -35,10 +46,29 @@ nav {
   color: #8b96a8;
   text-decoration: none;
 }
+.nav-links a.active{
+  color: #00d9c0;
+}
 .hero {
   padding: 100px 32px;
   max-width: 900px;
   margin: 0 auto;
+}
+.hero h1{
+  font-size: 32px;
+}
+.hero{
+  padding: 80px 20px;
+}
+.project-grid{
+  grid-template-columns: 1fr;
+}
+.resume-panel{
+  flex-direction: column;
+  align-items: flex-start;
+}
+.section{
+  padding: 60px 24px;
 }
 .status-pill {
   display: inline-flex;
@@ -92,16 +122,25 @@ nav {
   max-width: 900px;
   margin: 0 auto;
 }
+.section h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+.reveal{
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.reveal.visible{
+  opacity: 1;
+  transform: translateY(0);
+}
 .eyebrow {
   font-size: 12.5px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: #00d9c0;
   margin-bottom: 10px;
-}
-.section h2 {
-  font-size: 32px;
-  margin-bottom: 30px;
 }
 .about-text {
   color: #8b96a8;
