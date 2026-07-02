@@ -275,6 +275,16 @@ nav {
     height: 2px;
     background: #E8ECF1;
 }
+.footer{
+  border-top: 1px solid #212B3A;
+  padding: 32px;
+  text-align: center;
+  color: #5C6779;
+  font-size: 13px;
+}
+footer p{
+  margin-bottom: 6px;
+}
 @media (max-width: 768px){
   .nav-links{
     display: none;
